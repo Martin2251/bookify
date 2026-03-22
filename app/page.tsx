@@ -1,10 +1,11 @@
+import LibraryHero from "@/components/LibraryHero";
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h1 className='text-2xl underline'>Bookified</h1>
-    </div>
+    <main className="container wrapper">
+      <LibraryHero />
+    </main>
   )
 }
 
